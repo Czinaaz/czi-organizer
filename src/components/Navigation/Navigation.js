@@ -28,7 +28,8 @@ export default function Navigation() {
           {isLoggedIn ? (
             <>
               <StyledLink className={css.nav__link} to="/contacts" end>
-                <RiContactsBookLine />
+                {/* <RiContactsBookLine /> */}
+                Phonebook
               </StyledLink>
               <StyledLink className={css.nav__link} to="/tasks" end>
                 Tasks
