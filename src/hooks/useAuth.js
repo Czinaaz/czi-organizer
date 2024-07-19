@@ -3,7 +3,7 @@ import {
   selectUser,
   selectIsRefreshing,
   selectIsLoggedIn,
-} from '../redux/auth/selectors';
+} from '../../../czi-organizer/src/redux/auth/selectors';
 
 export const useAuth = () => {
   const isLoggedIn = useSelector(selectIsLoggedIn);

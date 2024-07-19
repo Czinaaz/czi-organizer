@@ -5,7 +5,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 import styled from 'styled-components';
 import css from './Navigation.module.css';
 import { TiHomeOutline } from "react-icons/ti";
-import { RiContactsBookLine } from "react-icons/ri";
+// import { RiContactsBookLine } from "react-icons/ri";
 
 const UserMenu = lazy(() => import('components/Usermenu/Usermenu'));
 // const Tasks = lazy(() => import('pages/Tasks/Tasks'));
